@@ -738,6 +738,11 @@ overflow: hidden;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     overflow: hidden;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 72px;
+    padding-bottom: 16px;
     
 
 }
@@ -788,8 +793,6 @@ overflow: hidden;
 
 /* Form */
 .form-text{
-    padding-right: 24px;
-    padding-left: 24px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -797,24 +800,22 @@ overflow: hidden;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    padding-top: 72px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
+    
 
 }
 
 .form{
-    
     margin-left: auto;
     margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
 
 }
 .form-field{
     display: flex;
     flex-direction: column;
-    padding-top: 8px;
+    margin-bottom: 8px;
     border-radius: 4px;
+    position: relative;
 
 }
 .label-form{
@@ -838,25 +839,44 @@ overflow: hidden;
     order: 1;
     flex-grow: 0;
     color: #8E8F99;
+
 }
 .form-link:hover {
-     color: var(--primary-brand);
+    color: var(--primary-brand);
  }
 .form-link:focus {
-color: var(--primary-brand);
+    color: var(--primary-brand);
 }
 .form-field input{
     margin: 0;
 }
-.input{
-    height: 40px;
+.form-field::placeholder {
+    position: absolute;
+    width: 57px;
+    height: 14px;
+    left: 16px;
+    top: 224px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
-.textarea{
+.textarea {
     resize: none;
     height: 120px;
 }
+.input{
+    height: 40px;
+}
+
 .checkbox{
-    padding-top: 16px;
+   
+    
 }
 .button-send{
     cursor: pointer;
@@ -875,8 +895,13 @@ color: var(--primary-brand);
     transition: background-color var(--anim-fast);
 }
 .Send{
-    padding-top:24px;
-    padding-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-
+.form-icons{
+   position: absolute;
+   top: 50%;
+   left: 19px;
+   transform: translate(0, -50%);
+}
