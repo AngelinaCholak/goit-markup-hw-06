@@ -482,6 +482,61 @@ margin-right: 120px;
     background-color: #31d0aa;
 }
 
+/*form-footer*/
+
+
+
+.form-footer{
+padding-left: 80px;
+padding-top: 100px;
+padding-bottom: 188px;
+
+}
+.subscribe{
+position: relative;
+display: block;
+margin-bottom: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--color);
+}
+
+
+.form-footer-subscribe{
+border: 1px solid #FFFFFF;
+background-color: var(--dark);
+border-radius: 4px;
+width: 264px;
+height: 40px;
+padding-right: 24px ;
+
+}
+.form-footer-subscribe::placeholder{
+    color: var(--color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+.button-subscribe-div{
+    
+        padding-left: 24px;
+}
+.button-subscribe{
+    background: var(--primary-brand);
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    
+
+
+}
 /* portfolio*/
 
 .body-class {
