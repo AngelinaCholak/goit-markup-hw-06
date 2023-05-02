@@ -525,16 +525,15 @@ padding-right: 24px ;
     line-height: 24px;
 }
 .button-subscribe-div{
-    
-        padding-left: 24px;
+    padding-left: 24px;
+    padding-top: 150px;
+
 }
 .button-subscribe{
     background: var(--primary-brand);
     border-radius: 4px;
     width: 165px;
     height: 40px;
-    
-
 
 }
 /* portfolio*/
@@ -883,6 +882,7 @@ overflow: hidden;
     line-height: 14px;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    
 }
 .form-link{
     font-family: 'Roboto';
@@ -907,20 +907,9 @@ overflow: hidden;
     margin: 0;
 }
 .form-field::placeholder {
-    position: absolute;
-    width: 57px;
-    height: 14px;
-    left: 16px;
-    top: 224px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
 
-    letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    
 }
 .textarea {
     resize: none;
