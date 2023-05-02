@@ -19,6 +19,9 @@
         --anim-fast: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
         --header-idx: 100;
 
+        --transition-duration: 250ms;
+        --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 img {
@@ -484,39 +487,41 @@ margin-right: 120px;
 
 /*form-footer*/
 
-
+.subscribe-div-footer{
+    width: 453px;
+    height: 80px;
+    margin-left: 80px;
+}
 
 .form-footer{
-padding-left: 80px;
-padding-top: 100px;
-padding-bottom: 188px;
+display: flex;
+align-items: center;
+justify-content: left;
 
 }
 .subscribe{
-position: relative;
-display: block;
-margin-bottom: 16px;
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+text-decoration: none;
+line-height: 1.5;
 letter-spacing: 0.02em;
+font-style: normal;
 color: var(--color);
+margin-bottom: 16px;
 }
 
 
-.form-footer-subscribe{
-border: 1px solid #FFFFFF;
-background-color: var(--dark);
-border-radius: 4px;
-width: 264px;
-height: 40px;
-padding-right: 24px ;
-
+.input-subscribe{
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    background-color: var(--dark);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    border: 1px solid var(--color)
+    
 }
-.form-footer-subscribe::placeholder{
+.form-footer-subscribe::placeholder {
     color: var(--color);
     font-family: 'Roboto';
     font-style: normal;
@@ -524,16 +529,26 @@ padding-right: 24px ;
     font-size: 12px;
     line-height: 24px;
 }
-.button-subscribe-div{
-    padding-left: 24px;
-    padding-top: 150px;
 
-}
 .button-subscribe{
-    background: var(--primary-brand);
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    gap: 16px;
     width: 165px;
     height: 40px;
+    color: var(--color);
+    background: var(--primary-brand);
+    margin-left: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: transparent;
+    transition: background-color var(--transition-duration) var(--transition-timing-function)
+    
 
 }
 /* portfolio*/
@@ -921,9 +936,6 @@ overflow: hidden;
 }
 
 .checkbox-checkbox {
-    
-    /*-webkit-appearance: none;
-    -moz-appearance: none;*/
     appearance: none;
     position: absolute;
    
