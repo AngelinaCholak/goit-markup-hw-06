@@ -879,9 +879,9 @@ overflow: hidden;
 .checkbox-checkbox {
     
     /*-webkit-appearance: none;
-    -moz-appearance: none;
+    -moz-appearance: none;*/
     appearance: none;
-    position: absolute;*/
+    position: absolute;
    
     
 }
@@ -915,7 +915,7 @@ overflow: hidden;
 .input:focus + .form-icons{
     fill: var(--primary-brand);
 }
-.label-checkbox {
+.label-text {
     margin-bottom: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -933,9 +933,17 @@ overflow: hidden;
     border-radius: 2px;
     content: " ";
     cursor: pointer;
+    margin-right: 8px;
+    transform: translate(0, 24%);
+    
     
 }
 
-.lcheckbox-checkbox + .label-checkbox::before {
-    background-color: var(--primary-brand);
+.checkbox-checkbox:checked + .label-checkbox::before {
+    background-color: var(--presse-state);
+    background-image: url(../images/icons.svg#icon-Vector);
 }
+
+
+
+
