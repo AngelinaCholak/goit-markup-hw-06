@@ -868,9 +868,16 @@ overflow: hidden;
         cursor: pointer;
  }
 
- .modal-form-agreement-icon{
-   
+ .modal-form-agreement-icon {
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 2px;
+        
 
+ }
+ .modal-form-agreement-icon:hover,
+ .modal-form-agreement-icon:focus {
+     border: 1px solid var(--primary-brand);
+    
  }
  .modal-form-agreement-unchek{
         opacity: 1;
@@ -953,11 +960,7 @@ overflow: hidden;
 .form-field input{
     margin: 0;
 }
-.form-field::placeholder {
 
-
-    
-}
 .modal-form-massedge {
     display: block;
     width: 100%;
@@ -972,7 +975,6 @@ overflow: hidden;
 }
 .modal-form-massedge::placeholder {
     
-   
 
 }
 .input{
@@ -1032,25 +1034,15 @@ overflow: hidden;
     letter-spacing: 0.04em;
     color: #8E8F99;
 }
-.label-checkbox::before{
-    display:inline-block;
-    width: 16px;
-    height:16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    content: " ";
-    cursor: pointer;
-    margin-right: 8px;
-    transform: translate(0, 24%);
-    
-    
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: none;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
 }
-
-.checkbox-checkbox:checked + .label-checkbox::before {
-    background-color: var(--presse-state);
-    
-}
-
 
 
 
