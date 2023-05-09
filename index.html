@@ -422,7 +422,7 @@
             </svg>
             </button>
 
-                <h2 class="form-text">Leave your contacts and we will call you back</h2>
+                <strong class="title-form">Leave your contacts and we will call you back</strong>
           
         <form class="form" action="">
             
@@ -453,27 +453,31 @@
 
             <div class="form-field">
                 <label class="label-form" for="Comment" >Comment</label>
-                <textarea class="textarea" 
+                <textarea class="modal-form-massedge" 
                  name="Comment" 
                  id="Comment" 
-                 cols="" rows="10" 
+                 cols="30" rows="10" 
                  placeholder="Text input"
                  ></textarea>
             </div>
-        </form>
+        <label class="modal-form-agreement">
+            <input class="modal-form-agreement-box" type="checkbox">
+            <svg class="modal-form-agreement-icon" width="16" height="16">
+                <use class="modal-form-agreement-unchek" href="./images/icon.svg#icon-Vector"></use>
+                <use class="modal-form-agreement-check" href="./images/icon.svg#icon-check-icon"></use>
+            </svg>
+            <span class="modal-form-agreement-text">
+                I accept the terms and conditions of the
+                <a class="modal-form-policy" href="">Privacy Policy</a>
+            </span>
+        </label>
 
-            <div class="checkbox">
-                <input id="checkbox" class="checkbox-checkbox" type="checkbox">
-                <label  class="label-checkbox" for="checkbox">
-                <span class="label-text">I accept the terms and conditions of the</span>
-                <a class="form-link" href="">Privacy Policy</a>
-                </label>
-            </div>
+         
 
             <div class="Send">
                 <button class="button-send" type="submit" id="checkbox">Send</button>
             </div>
-        
+        </form>
         </div>
     </div>
     
