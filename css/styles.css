@@ -850,7 +850,8 @@ overflow: hidden;
 
 
 }
-.modal-form-agreement-box:checked+.modal-form-agreement-icon>.modal-form-agreement-unchek {
+
+.modal-form-agreement-box:checked + .modal-form-agreement-icon + .modal-form-agreement-unchek {
     opacity: 1;
     fill: var(--modal-overlay);
 
@@ -863,7 +864,7 @@ overflow: hidden;
  }
  .modal-form-agreement-box{
         appearance: none;
-        transition: var(--transition-duration) var(var(--transition-timing-function));
+        transition: var(--transition-duration) var(--transition-timing-function);
         cursor: pointer;
  }
 
