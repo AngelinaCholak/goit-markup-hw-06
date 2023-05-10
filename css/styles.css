@@ -851,11 +851,11 @@ overflow: hidden;
 
 }
 
-.modal-form-agreement-box:checked + .modal-form-agreement-icon + .modal-form-agreement-unchek {
-    opacity: 1;
-    fill: var(--modal-overlay);
-
-}
+ .modal-form-agreement-box:checked+.modal-form-agreement-icon {
+     background-color: var(--presse-state);
+     opacity: 1;
+     transition: var(--transition-duration) var(--transition-timing-function);
+ }
  .modal-form-agreement{
         display: flex;
         align-items: center;
@@ -882,6 +882,7 @@ overflow: hidden;
  .modal-form-agreement-unchek{
         opacity: 1;
         transition: var(--transition-duration) var(--transition-timing-function);
+     
  }
  .modal-form-agreement-check{
         opacity: 0;
