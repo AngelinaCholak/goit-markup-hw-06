@@ -807,7 +807,7 @@ overflow: hidden;
     top: calc(50% - 288px);
     left: calc(50% - 204px);
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     background: var(--modal-background);
     box-shadow: 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 4px;
@@ -926,7 +926,8 @@ overflow: hidden;
    
 
 }
-.label-form{
+.label-form {
+    display: block;
     margin-bottom: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -973,14 +974,24 @@ overflow: hidden;
     margin-bottom: 16px;
 }
 .modal-form-massedge::placeholder {
-    
-
+        font-size: 12px;
+        line-height: 14px;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: rgba(46, 47, 66, 0.4);
 }
+    
 .input{
     height: 40px;
     padding-left: 38px;
 }
 
+.input:hover{
+    border: 1px solid var(--primary-brand);
+}
+.input:focus{
+    border: 1px solid var(--primary-brand);
+}
 .checkbox-checkbox {
     appearance: none;
     position: absolute;
