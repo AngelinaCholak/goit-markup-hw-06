@@ -885,6 +885,7 @@ overflow: hidden;
      
  }
  .modal-form-agreement-check{
+        
         opacity: 0;
         transition: var(--transition-duration) var(--transition-timing-function);
  }
