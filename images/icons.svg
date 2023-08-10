@@ -96,3 +96,6 @@
       <path fill="#f4f4fd" d="M20.594 5.673a1.222 1.222 0 0 1 1.705.013 1.235 1.235 0 0 1 .045 1.714l-6.526 8.206a1.211 1.211 0 0 1-1.358.305 1.22 1.22 0 0 1-.409-.272l-4.328-4.351a1.227 1.227 0 0 1-.39-.88 1.234 1.234 0 0 1 1.248-1.255 1.215 1.215 0 0 1 .876.393l3.425 3.442 5.681-7.277a.282.282 0 0 1 .033-.036h-.002z" style="fill:var(--color2, #f4f4fd)"/>
       <path fill="none" stroke="#404bbf" stroke-width="1.333" d="M8 .667h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-16a2 2 0 0 1 2-2z" style="stroke:var(--color1, #404bbf)"/>
     </symbol>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs><symbol id="icon-Icon" viewBox="0 0 48 32"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M3 16h42M3 2h42M3 30h42"/></symbol></defs></svg>
