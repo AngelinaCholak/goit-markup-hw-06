@@ -377,8 +377,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     gap: 24px;
 
 }
-.element-customers{
-    width: calc((100% - 120px) / 6);
+.element-customers{3100% - 120px) / 6);
     height: 88px;
 
 }
